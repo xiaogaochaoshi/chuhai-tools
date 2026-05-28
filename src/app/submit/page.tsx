@@ -75,6 +75,7 @@ export default function SubmitPage() {
             <option value="domain-brand">域名/品牌</option>
             <option value="analytics">数据分析</option>
             <option value="ai-deploy">AI一键部署</option>
+            <option value="ai-models">AI大模型</option>
           </select>
         </div>
 

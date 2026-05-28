@@ -27,6 +27,7 @@ const navLinks = [
   { href: "/categories/email-marketing", label: "邮件" },
   { href: "/categories/domain-brand", label: "品牌" },
   { href: "/categories/analytics", label: "数据" },
+  { href: "/categories/ai-models", label: "大模型" },
   { href: "/categories/ai-deploy", label: "部署" },
 ];
 
