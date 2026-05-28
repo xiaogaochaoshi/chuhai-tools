@@ -20,6 +20,15 @@ export interface Category {
   icon: string;
 }
 
+export interface BlogPost {
+  slug: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  tags: string[];
+  content: string;
+}
+
 export interface ToolFrontmatter {
   name: string;
   tagline: string;

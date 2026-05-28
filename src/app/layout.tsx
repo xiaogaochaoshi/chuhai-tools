@@ -21,6 +21,7 @@ export const metadata: Metadata = {
 
 const navLinks = [
   { href: "/", label: "首页" },
+  { href: "/blog", label: "博客" },
   { href: "/categories/ai-coding", label: "AI编程" },
   { href: "/categories/payment", label: "支付" },
   { href: "/categories/hosting", label: "部署" },
