@@ -98,7 +98,7 @@ export default async function ToolPage({ params }: Props) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-lg hover:bg-emerald-700 transition-colors font-medium"
             >
-              🚀 一键部署
+              AI一键部署
             </a>
           )}
           {tool.affiliate ? (
