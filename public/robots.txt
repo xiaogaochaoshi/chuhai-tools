@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chuhai-tools.pages.dev/sitemap.xml
