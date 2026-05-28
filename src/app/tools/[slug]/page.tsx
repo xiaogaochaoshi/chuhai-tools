@@ -91,8 +91,14 @@ export default async function ToolPage({ params }: Props) {
           >
             访问官网 &rarr;
           </a>
-          {tool.affiliate && (
-            <span className="text-xs text-text-muted">* 含联盟链接</span>
+          {tool.affiliate ? (
+            <span className="text-xs bg-amber-50 text-amber-800 px-2 py-0.5 rounded">
+              🔗 含联盟链接 — 通过此链接购买我们可能获得佣金，不影响您的价格
+            </span>
+          ) : (
+            <span className="text-xs bg-slate-50 text-text-muted px-2 py-0.5 rounded">
+              本站与 {tool.name} 无任何商业合作关系
+            </span>
           )}
         </div>
       </div>
