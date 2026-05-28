@@ -7,6 +7,7 @@ export interface Tool {
   category: string;
   pricing: 'free' | 'freemium' | 'paid';
   featured: boolean;
+  deploy_url?: string;
   affiliate?: string;
   logo?: string;
 }
@@ -25,6 +26,7 @@ export interface ToolFrontmatter {
   category: string;
   pricing: 'free' | 'freemium' | 'paid';
   featured: boolean;
+  deploy_url?: string;
   affiliate?: string;
   logo?: string;
 }

@@ -82,7 +82,7 @@ export default async function ToolPage({ params }: Props) {
           </span>
         </div>
 
-        <div className="mt-5 flex items-center gap-3">
+        <div className="mt-5 flex items-center gap-3 flex-wrap">
           <a
             href={tool.url}
             target="_blank"
@@ -91,6 +91,16 @@ export default async function ToolPage({ params }: Props) {
           >
             访问官网 &rarr;
           </a>
+          {tool.deploy_url && (
+            <a
+              href={tool.deploy_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-emerald-600 text-white px-5 py-2.5 rounded-lg hover:bg-emerald-700 transition-colors font-medium"
+            >
+              🚀 一键部署
+            </a>
+          )}
           {tool.affiliate ? (
             <span className="text-xs bg-amber-50 text-amber-800 px-2 py-0.5 rounded">
               🔗 含联盟链接 — 通过此链接购买我们可能获得佣金，不影响您的价格
