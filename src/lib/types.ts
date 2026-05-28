@@ -8,6 +8,7 @@ export interface Tool {
   pricing: 'free' | 'freemium' | 'paid';
   featured: boolean;
   deploy_url?: string;
+  deploy_cn_url?: string;
   affiliate?: string;
   logo?: string;
 }
@@ -27,6 +28,7 @@ export interface ToolFrontmatter {
   pricing: 'free' | 'freemium' | 'paid';
   featured: boolean;
   deploy_url?: string;
+  deploy_cn_url?: string;
   affiliate?: string;
   logo?: string;
 }

@@ -6,6 +6,7 @@ category: ai-deploy
 pricing: free
 featured: false
 deploy_url: https://railway.app/template/pn4G8S?referralCode=ZoOP9M
+deploy_cn_url: https://sealos.run
 ---
 
 ## 简介

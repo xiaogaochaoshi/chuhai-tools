@@ -6,6 +6,7 @@ category: ai-deploy
 pricing: free
 featured: true
 deploy_url: https://vercel.com/new/clone?repository-url=https://github.com/lobehub/lobe-chat
+deploy_cn_url: https://sealos.run
 ---
 
 ## 简介

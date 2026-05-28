@@ -25,6 +25,7 @@ export function getAllTools(): Tool[] {
       pricing: front.pricing,
       featured: front.featured ?? false,
       deploy_url: front.deploy_url,
+      deploy_cn_url: front.deploy_cn_url,
       affiliate: front.affiliate,
       logo: front.logo,
     } satisfies Tool;
@@ -50,6 +51,7 @@ export function getToolBySlug(slug: string): Tool | null {
     pricing: front.pricing,
     featured: front.featured ?? false,
     deploy_url: front.deploy_url,
+    deploy_cn_url: front.deploy_cn_url,
     affiliate: front.affiliate,
     logo: front.logo,
   };

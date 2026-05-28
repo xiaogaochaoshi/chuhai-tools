@@ -6,6 +6,7 @@ category: ai-deploy
 pricing: free
 featured: false
 deploy_url: https://docs.librechat.ai/install/
+deploy_cn_url: https://sealos.run
 ---
 
 ## 简介

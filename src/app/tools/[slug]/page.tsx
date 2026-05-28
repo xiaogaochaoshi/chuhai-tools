@@ -101,6 +101,16 @@ export default async function ToolPage({ params }: Props) {
               AI一键部署
             </a>
           )}
+          {tool.deploy_cn_url && (
+            <a
+              href={tool.deploy_cn_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-orange-500 text-white px-5 py-2.5 rounded-lg hover:bg-orange-600 transition-colors font-medium"
+            >
+              国内部署
+            </a>
+          )}
           {tool.affiliate ? (
             <span className="text-xs bg-amber-50 text-amber-800 px-2 py-0.5 rounded">
               🔗 含联盟链接 — 通过此链接购买我们可能获得佣金，不影响您的价格

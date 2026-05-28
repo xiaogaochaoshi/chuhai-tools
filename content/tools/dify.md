@@ -6,6 +6,7 @@ category: ai-deploy
 pricing: freemium
 featured: true
 deploy_url: https://cloud.dify.ai
+deploy_cn_url: https://sealos.run
 ---
 
 ## 简介

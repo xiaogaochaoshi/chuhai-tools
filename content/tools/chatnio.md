@@ -6,6 +6,7 @@ category: ai-deploy
 pricing: free
 featured: false
 deploy_url: https://vercel.com/new/clone?repository-url=https://github.com/zmh-program/chatnio
+deploy_cn_url: https://sealos.run
 ---
 
 ## 简介

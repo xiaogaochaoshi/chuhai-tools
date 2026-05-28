@@ -6,6 +6,7 @@ category: ai-deploy
 pricing: free
 featured: true
 deploy_url: https://docs.openwebui.com/getting-started/
+deploy_cn_url: https://sealos.run
 ---
 
 ## 简介
